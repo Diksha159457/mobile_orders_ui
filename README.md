@@ -45,6 +45,14 @@ flutter pub get
 flutter run
 ```
 
+## Deployment
+
+This repository includes a GitHub Pages workflow for the Flutter web build.
+
+- On every push to `main`, GitHub Actions builds the app for web and publishes it to GitHub Pages.
+- After Pages is enabled for the repository, the public URL should be:
+  `https://diksha159457.github.io/mobile_orders_ui/`
+
 ## Resume Value
 
 This project demonstrates Flutter component design, stateful filtering and pagination, custom theming, and mobile-focused UI composition for a trading workflow.
