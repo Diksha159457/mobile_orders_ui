@@ -57,7 +57,7 @@ class AppTheme {
         ),
       ),
       // Rules globally setting how every 'Card' widget handles layout and styling.
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: surfaceLight, // White background for the card body.
         elevation: 2, // Minimal physical elevation depth.
         shadowColor: Colors.black.withOpacity(0.05), // An extremely subtle shadow drop for depth.
@@ -108,7 +108,7 @@ class AppTheme {
           fontWeight: FontWeight.bold,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: surfaceDark, // Maps cards to the dark slate 'surface'.
         elevation: 2,
         shadowColor: Colors.black.withOpacity(0.2), // Dark mode needs slightly heavier shadow opacities to be visible.
