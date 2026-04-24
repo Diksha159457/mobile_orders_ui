@@ -1,11 +1,11 @@
 {
-    "name": "orders_app",
-    "short_name": "orders_app",
+    "name": "Mobile Orders UI",
+    "short_name": "Orders UI",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Flutter open orders interface for trading workflows.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

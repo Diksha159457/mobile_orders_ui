@@ -1,16 +1,61 @@
-# orders_app
+# Mobile Orders UI
 
-A new Flutter project.
+A Flutter interface for viewing and managing open trading orders in a mobile-friendly layout. The app focuses on polished card-based presentation, filter chips, search, pagination, and quick order cancellation interactions.
 
-## Getting Started
+## Highlights
 
-This project is a starting point for a Flutter application.
+- Card-based open orders layout optimized for mobile screens
+- Buy, sell, CNC, and NRML filters
+- Search bar and paginated order list
+- Swipe or tap-based order cancellation flows
+- Light and dark theme support
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- `flutter_slidable`
+- `google_fonts`
+- `intl`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```text
+mobile_orders_ui/
+├── lib/
+│   ├── main.dart
+│   ├── app_theme.dart
+│   ├── models/order.dart
+│   ├── screens/orders_screen.dart
+│   └── widgets/
+│       ├── filter_chips.dart
+│       ├── order_card.dart
+│       └── search_input.dart
+├── test/
+│   └── widget_test.dart
+└── pubspec.yaml
+```
+
+## Run Locally
+
+```bash
+git clone https://github.com/Diksha159457/mobile_orders_ui.git
+cd mobile_orders_ui
+flutter pub get
+flutter run
+```
+
+## Resume Value
+
+This project demonstrates Flutter component design, stateful filtering and pagination, custom theming, and mobile-focused UI composition for a trading workflow.
+
+## Future Improvements
+
+- Connect the UI to a live orders API
+- Add sorting and richer search behavior
+- Add portfolio summary and analytics panels
+- Add widget and golden tests for core views
+
+## License
+
+MIT. See [LICENSE](LICENSE).
